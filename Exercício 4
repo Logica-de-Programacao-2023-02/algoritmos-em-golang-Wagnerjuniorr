@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+	var n1 int
+	var n2 int
+	var n3 int
+	fmt.Print("Me fale um número real")
+	fmt.Scan(&n1)
+	fmt.Println("Me fala mais um numero")
+	fmt.Scan(&n2)
+	fmt.Println("Me fale mais um numero")
+	fmt.Scan(&n3)
+	n1 *= 2
+	n2 *= 3
+	n3 *= 5
+	var x = 2
+	var y = 3
+	var z = 5
+	x += y
+	x += z
+	fmt.Println("Com isso, a média ponderada desses numeros com pesos igual a: 2, 3 e 5 é igual a", (n1+n2+n3)/x)
+}
