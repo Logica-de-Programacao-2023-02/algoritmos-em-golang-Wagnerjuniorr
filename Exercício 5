@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	var idade int
+	fmt.Print("Me fale sua idade")
+	fmt.Scan(&idade)
+	idade *= 365
+	fmt.Println("Sua idade em dias é", idade)
+
+}
