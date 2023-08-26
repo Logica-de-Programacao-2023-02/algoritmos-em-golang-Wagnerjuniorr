@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	var salário float64
+	var salário2 float64
+	fmt.Print("Você receberá um aumento no salário, me fale o seu salário atual")
+	fmt.Scan(&salário)
+	salário2 = (salário / 100) * 15
+	fmt.Println("Com isso, o seu novo salário com um aumento de 15% é", salário+salário2)
+}
