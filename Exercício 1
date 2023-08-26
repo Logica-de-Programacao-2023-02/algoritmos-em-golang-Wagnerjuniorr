@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var y int
+	var z int
+	fmt.Print("me fale um número")
+	fmt.Scan(&x)
+	fmt.Println("me fale mais um numero")
+	fmt.Scan(&y)
+	fmt.Println("me fale mais apenas mais um numero")
+	fmt.Scan(&z)
+	fmt.Println("a soma desses numeros é", x+y+z)
+}
