@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var y int = 2
+	var z int = 3
+	var w int = 4
+	fmt.Print("Ola, me fale um némero inteiro")
+	fmt.Scan(&x)
+	fmt.Println("O dobro desse número inteiro é", x*y)
+	fmt.Println("O triplo desse numero é", x*z)
+	fmt.Println("O quadruplo desse numero é", x*w)
+
+}
