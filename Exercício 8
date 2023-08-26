@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var diária float64
+	fmt.Print("Me fale qual o valor da sua diára")
+	fmt.Scan(&diária)
+	var dias float64
+	fmt.Println("Me fale quantos dias do mês você trabalha")
+	fmt.Scan(&dias)
+	fmt.Println("Seu salário é de ", diária*dias)
+}
