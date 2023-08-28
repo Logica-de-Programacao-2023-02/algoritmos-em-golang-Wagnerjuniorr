@@ -15,10 +15,10 @@ func main() {
 	fmt.Println("Digite um número")
 	fmt.Scan(&z)
 	if x < y && x < z {
-		fmt.Println("x é é o menor número")
+		fmt.Println(x, " é é o menor número")
 	} else if y < x && y < z {
-		fmt.Println("y é o menor número")
+		fmt.Println(y, " é o menor número")
 	} else if z < x && z < y {
-		fmt.Println("z é o menor número")
+		fmt.Println(z, " é o menor número")
 	}
 }
