@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+	var dia int
+	fmt.Print("me fale um numero inteiro de 1 a 7")
+	fmt.Scan(&dia)
+	if dia == 1 {
+		fmt.Println("Seu número é igual ao dia da semana: Domingo")
+	} else if dia == 2 {
+		fmt.Println("Seu número é igual ao dia da semana: Segunda-feira")
+	} else if dia == 3 {
+		fmt.Println("Seu número é igual ao dia da semana: Terça-feira")
+	} else if dia == 4 {
+		fmt.Println("Seu número é igual ao dia da semana: Quarta-feira")
+	} else if dia == 5 {
+		fmt.Println("Seu número é igual ao dia da semana: Quinta-feira")
+	} else if dia == 6 {
+		fmt.Println("Seu número é igual ao dia da semana: Sexta-feira")
+	} else if dia == 7 {
+		fmt.Println("Seu número é igual ao dia da semana: Sábado")
+	}
+}
