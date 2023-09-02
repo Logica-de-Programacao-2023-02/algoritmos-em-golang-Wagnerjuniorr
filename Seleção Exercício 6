@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var y int
+	fmt.Print("Me fale um numero inteiro")
+	fmt.Scan(&x)
+	fmt.Println("Me fale mais um numero inteiro")
+	fmt.Scan(&y)
+	if x/y > 0 {
+		fmt.Println(x, "e", y, "são positivos, então", x*y)
+	} else if x < 0 {
+		fmt.Println(x, "é negativo, então", x+y)
+	} else if y < 0 {
+		fmt.Println("y é negativo, então", x+y)
+	}
+}
