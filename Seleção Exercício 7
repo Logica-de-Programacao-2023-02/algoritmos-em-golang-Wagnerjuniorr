@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+	var salário float64
+	var salário2 float64
+	var salário3 float64
+	fmt.Print("Me fale o valor do seu salário para analisarmos o seu aumento")
+	fmt.Scan(&salário)
+	if salário < 1000 {
+		salário2 = (salário / 100) * 10
+		fmt.Println(salário, "é menor que 1000, então vc receberá um aumento de 10%", salário+salário2)
+	} else if salário >= 1000 {
+		salário3 = (salário / 100) * 5
+		fmt.Println(salário, "é maior que 1000, então vc receberá um aumento de 5", salário+salário3)
+	}
+}
