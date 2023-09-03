@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Print("Me fale um numero inteiro")
+	fmt.Scan(&x)
+	for y := 1; y <= x; y++ {
+		if x%y == 0 {
+			fmt.Println(y)
+		}
+	}
+}
