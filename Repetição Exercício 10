@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	x := 1
+	y := 0
+	for x != 0 {
+		fmt.Print("Me fale um número inteiro:")
+		fmt.Scan(&x)
+		if x > y {
+			y = x
+		}
+	}
+	fmt.Println("O maior número é:", y)
+}
